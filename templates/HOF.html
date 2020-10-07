@@ -1,0 +1,151 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+
+<div class="container-fluid" style="margin-top: 110px;">
+    <h3>
+        <p style="letter-spacing: 5px; text-shadow:  2px 2px 5px black; margin-left: 110px;"><strong> HALL OF
+                FAME</strong></p>
+    </h3>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark  fixed-top ">
+    <!-- Brand/logo -->
+    <a class="navbar-brand nav justify-content-start " href="/home">
+        <img src="{{ url_for('static', filename = 'logo1.png') }}" alt="logo" style="width:40px;">
+    </a>
+
+    <!-- Links -->
+    <ul class="navbar-nav nav justify-content-end ">
+        <li class="nav-item ">
+            <a class="nav-link" href="/home/team">
+                <h5>Team</h5>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/home/Memo">
+                <h5>Memoir</h5>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <h5>Hall of fame</h5>
+            </a>
+        </li>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">
+            <h5>Events</h5>
+        </a>
+    </li>
+    </ul>
+</nav>
+
+
+    <!-- Grid row-->
+    <div class="row text-center text-md-left pt-4">
+
+        <!-- Grid column -->
+        <div class="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
+          <div class="avatar mb-md-0 mb-2 mx-2 p-5">
+            <img src="{{ url_for('static', filename = 'team/f1.jpg') }}" class="rounded-circle z-depth-3" alt="Sample avatar">
+          </div>
+          <div class="mx-4 pr-1 pt-5">
+            <h4 class="font-weight-bold mb-3">Prashant pandey</h4>
+            <h6 class="font-weight-bold grey-text mb-3">Founder</h6>
+            <p class="grey-text">Fullstack Engineer at Technosys Security Systems Pvt. Ltd., India</p>
+             <!-- Facebook-->
+        <a class="p-2 fa-lg fb-ic"  href="https://www.linkedin.com/mwlite/in/prashantpandey22">
+            <i class="fab fa-linkedin">  </i>
+          </a>
+          </div>
+        </div>
+        <!-- Grid column -->
+    
+    
+    
+       <!-- Grid column -->
+       <div class="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
+        <div class="avatar mb-md-0 mb-4 mx-4  p-5">
+          <img src="{{ url_for('static', filename = 'team/f2.jpg') }}" class="rounded-circle z-depth-1" alt="Sample avatar">
+        </div>
+        <div class="mx-4 pr-1 pt-5 ">
+          <h4 class="font-weight-bold mb-3">Akshay Bengani</h4>
+          <h6 class="font-weight-bold grey-text mb-3">Co-Founder</h6>
+          <p class="grey-text">Flutter Developer at Rirev, Benguluru</p>
+           <!-- Facebook-->
+        <a class="p-2 fa-lg" href="https://www.linkedin.com/in/akshaybengani/"> 
+            <i class="fab fa-linkedin"> </i>
+          </a>
+        </div>
+      </div>
+      <!-- Grid column -->
+    </div>
+
+        <!-- Grid row-->
+<div class="row text-center text-md-left">
+
+    <!-- Grid column -->
+    <div class="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
+      <div class="avatar mb-md-0 mb-4 mx-4 p-5">
+        <img src="{{ url_for('static', filename = 'team/f3.jpg') }}" class="rounded-circle z-depth-1" alt="Sample avatar">
+      </div>
+      <div class="mx-4 pr-1 pt-5">
+        <h4 class="font-weight-bold mb-3">Shivank Gautum</h4>
+        <h6 class="font-weight-bold grey-text mb-3">Co-Founder</h6>
+        <p class="grey-text">Software Enginnering Intern at  StackBOX, Bengaluru</p>
+        <!-- Linkedin-->
+        <a class="p-2 fa-lg" href="https://www.linkedin.com/in/shivank98/" >
+          <i class="fab fa-linkedin"> </i>
+        </a>
+      
+      </div>
+    </div>
+    <!-- Grid column -->
+
+
+</div>
+
+
+
+<div class="jumbotron bg-dark" style="margin-top: 40px; ">
+    <div class="damn">
+
+        <h5>
+            <p style="letter-spacing: 5px; text-shadow: 2px 2px 5px black;"><strong>for these people</strong></p>
+        </h5>
+        <p>This Community was founded in 2017 by three Students of JECRC University, as an open-source community, where
+            these people
+            wished that they'll encourage students to contribute to open-source projects and providing students with tools and
+            education they need to advance
+            their skills.
+        </p>
+        <p>We have came along a way together contributing to different projects, creating our own projects and
+            organizing great
+            workshops and seminars.
+
+        </p>
+        <p>But without <strong>These people</strong> we cannot imagine crossing half of our way.</p>
+    
+    </div>
+</div>
+
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small blue console bg-dark fixed-bottom">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href=#> COSEC</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+{% endblock %}

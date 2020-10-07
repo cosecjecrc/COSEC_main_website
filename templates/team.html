@@ -1,0 +1,324 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+
+<div class="container-fluid" style="margin-top: 110px;">
+    <h3>
+        <p style="letter-spacing: 5px; text-shadow:  2px 2px 5px black; margin-left: 50px;"><strong> CYBER AND OPEN
+                SOURCE EDUCATION CELL (COSEC)</strong></p>
+    </h3>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark  fixed-top ">
+    <!-- Brand/logo -->
+    <a class="navbar-brand nav justify-content-start " href="/home">
+        <img src="{{ url_for('static', filename = 'logo1.png') }}" alt="logo" style="width:40px;">
+    </a>
+
+    <!-- Links -->
+    <ul class="navbar-nav nav justify-content-end ">
+        <li class="nav-item ">
+            <a class="nav-link" href="#">
+                <h5>Team</h5>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/home/Memo">
+                <h5>Memoir</h5>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/home/hof">
+                <h5>Hall of fame</h5>
+            </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+              <h5>Events</h5>
+          </a>
+      </li>
+    </ul>
+</nav>
+
+<div class="container-fluid" style="margin-top: 110px;">
+
+    <div class="shadow-lg p-0 mb-0 bg-dark rounded" style="margin-left: 120px; margin-right: 90px;">
+        <div id="example1">
+            <div class="card-body">
+                <p class="memo" style="margin-top:-1px"><strong> OUR AMAZING TEAM</strong></p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--team  cards-->
+
+<!-- Grid row-->
+<div class="row text-center text-md-left">
+
+    <!-- Grid column -->
+    <div class="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
+      <div class="avatar mb-md-0 mb-4 mx-4 p-5">
+        <img src="{{ url_for('static', filename = 'team/t4.jpg') }}" class="rounded-circle z-depth-1" alt="Sample avatar">
+      </div>
+      <div class="mx-4 pr-1 pt-5">
+        <h4 class="font-weight-bold mb-3">Rajat Bhardwaj</h4>
+        <h6 class="font-weight-bold grey-text mb-3">Lead</h6>
+        <p class="grey-text">Cyber security enthusiast, Ethical Hacker, Back-End Developer, Redhat Certified System Administrator</p>
+        
+        
+        <!--linkedIn -->
+        <a class="p-2 fa-lg " href='http://www.linkedin.com/in/rajat-bhardwaj-001412007'>
+          <i class="fab fa-linkedin"> </i>
+        </a>
+      </div>
+    </div>
+    <!-- Grid column -->
+
+
+
+   <!-- Grid column -->
+   <div class="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
+    <div class="avatar mb-md-0 mb-4 mx-4  p-5">
+      <img src="{{ url_for('static', filename = 'team/t13.jpg') }}" class="rounded-circle z-depth-1" alt="Sample avatar">
+    </div>
+    <div class="mx-4 pr-1 pt-5 ">
+      <h4 class="font-weight-bold mb-3">Priyansh Nema</h4>
+      <h6 class="font-weight-bold grey-text mb-3">Team-Management</h6>
+      <p class="grey-text">Photoshop-expert, RPA, Graphics-Designer</p>
+      <!-- linkedin-->
+      <a class="p-2 fa-lg " href="https://www.linkedin.com/in/priyansh-nema-445938170/">
+        <i class="fab fa-linkedin"> </i>
+      </a>
+    
+    </div>
+  </div>
+  <!-- Grid column -->
+</div>
+
+<!-- Grid row-->
+<div class="row text-center text-md-left">
+
+    <!-- Grid column -->
+    <div class="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
+      <div class="avatar mb-md-0 mb-4 mx-4 p-5">
+        <img src="{{ url_for('static', filename = 'team/t2.jpg') }}" class="rounded-circle z-depth-1" alt="Sample avatar">
+      </div>
+      <div class="mx-4 pr-1 pt-5">
+        <h4 class="font-weight-bold mb-3">Khaliq Ansari </h4>
+        <h6 class="font-weight-bold grey-text mb-3">Bug Hunter</h6>
+        <p class="grey-text">Ethical Hacker, Paid Security Tester, Free Lancer</p>
+        <!-- linkedin-->
+        <a class="p-2 fa-lg " href="https://www.linkedin.com/in/khaliqansari/">
+          <i class="fab fa-linkedin"> </i>
+        </a>
+       
+      </div>
+    </div>
+    <!-- Grid column -->
+
+
+
+   <!-- Grid column -->
+   <div class="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
+    <div class="avatar mb-md-0 mb-4 mx-4  p-5">
+      <img src="{{ url_for('static', filename = 'team/t8.jpg') }}" class="rounded-circle z-depth-1" alt="Sample avatar">
+    </div>
+    <div class="mx-4 pr-1 pt-5 ">
+      <h4 class="font-weight-bold mb-3">Yuvraj Singh</h4>
+      <h6 class="font-weight-bold grey-text mb-3">Data Science Enthusiast</h6>
+      <p class="grey-text">Data Science, Digital marketing, SEO </p>
+      <!-- Facebook-->
+      <a class="p-2 fa-lg " href="https://www.linkedin.com/in/yuvraj-singh-panwar-52160b171/">
+        <i class="fab fa-linkedin"> </i>
+      </a>
+      
+    </div>
+  </div>
+  <!-- Grid column -->
+</div>
+
+<!-- Grid row-->
+<div class="row text-center text-md-left">
+
+    <!-- Grid column -->
+    <div class="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
+      <div class="avatar mb-md-0 mb-4 mx-4 p-5">
+        <img src="{{ url_for('static', filename = 'team/t5.jpg') }}" class="rounded-circle z-depth-1" alt="Sample avatar">
+      </div>
+      <div class="mx-4 pr-1 pt-5">
+        <h4 class="font-weight-bold mb-3">Abhishek Tanwar</h4>
+        <h6 class="font-weight-bold grey-text mb-3">Machine Learning Enthusiast</h6>
+        <p class="grey-text">Competitive Programmer, Project Manager at JU Makerspace, IOT Developer</p>
+        <!-- linkedin-->
+        <a class="p-2 fa-lg fb-ic" href="https://www.linkedin.com/in/abhishek-tanwar-9097ab174/">
+          <i class="fab fa-linkedin"> </i>
+        </a>
+       
+      </div>
+    </div>
+    <!-- Grid column -->
+
+
+
+   <!-- Grid column -->
+   <div class="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
+    <div class="avatar mb-md-0 mb-4 mx-4  p-5">
+      <img src="{{ url_for('static', filename = 'team/t9.jpg') }}" class="rounded-circle z-depth-1" alt="Sample avatar">
+    </div>
+    <div class="mx-4 pr-1 pt-5 ">
+      <h4 class="font-weight-bold mb-3">Shobhit Gupta</h4>
+      <h6 class="font-weight-bold grey-text mb-3">Content Writer</h6>
+      <p class="grey-text">Founder & CEO - Media Of Web, Digital Marketer, tech-Enthusiast</p>
+      <!-- Facebook-->
+      <a class="p-2 fa-lg fb-ic" href="https://www.linkedin.com/in/mrshobhit/">
+        <i class="fab fa-linkedin"> </i>
+      </a>
+      
+    </div>
+  </div>
+  <!-- Grid column -->
+</div>
+
+<!-- Grid row-->
+<div class="row text-center text-md-left">
+
+    <!-- Grid column -->
+    <div class="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
+      <div class="avatar mb-md-0 mb-4 mx-4 p-5">
+        <img src="{{ url_for('static', filename = 'team/t6.jpg') }}" class="rounded-circle z-depth-1" alt="Sample avatar">
+      </div>
+      <div class="mx-4 pr-1 pt-5">
+        <h4 class="font-weight-bold mb-3">Aryan Singh</h4>
+        <h6 class="font-weight-bold grey-text mb-3">Content Creator</h6>
+        <p class="grey-text">Youtuber, Digital Marketing Practitioner, Breathe Marketing</p>
+        <!-- linkedin-->
+        <a class="p-2 fa-lg fb-ic" href="https://www.linkedin.com/in/askaryansingh/">
+          <i class="fab fa-linkedin"> </i>
+        </a>
+          <!--YouTube -->
+      <a class="p-2 fa-lg yt-ic" href="https://www.youtube.com/askaryansingh">
+        <i class="fab fa-youtube"> </i>
+      </a>
+        
+      </div>
+    </div>
+    <!-- Grid column -->
+
+
+
+   <!-- Grid column -->
+   <div class="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
+    <div class="avatar mb-md-0 mb-4 mx-4  p-5">
+      <img src="{{ url_for('static', filename = 'team/t10.jpg') }}" class="rounded-circle z-depth-1" alt="Sample avatar">
+    </div>
+    <div class="mx-4 pr-1 pt-5 ">
+      <h4 class="font-weight-bold mb-3">Shivam Mishra</h4>
+      <h6 class="font-weight-bold grey-text mb-3">Developer</h6>
+      <p class="grey-text">Kotlin Android Developer, youtuber, Competitive Programming</p>
+      <!-- linkedin-->
+      <a class="p-2 fa-lg fb-ic" href="https://www.linkedin.com/in/shivam-mishra-856b9a189/">
+        <i class="fab fa-linkedin"> </i>
+      </a>
+    
+    </div>
+  </div>
+  <!-- Grid column -->
+</div>
+
+<!-- Grid row-->
+<div class="row text-center text-md-left">
+
+    <!-- Grid column -->
+    <div class="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
+      <div class="avatar mb-md-0 mb-4 mx-4 p-5">
+        <img src="{{ url_for('static', filename = 'team/t7.jpg') }}" class="rounded-circle z-depth-1" alt="Sample avatar">
+      </div>
+      <div class="mx-4 pr-1 pt-5">
+        <h4 class="font-weight-bold mb-3">Utkarsh Sharma</h4>
+        <h6 class="font-weight-bold grey-text mb-3">Programmer</h6>
+        <p class="grey-text">Competitive programming, Python-Backend</p>
+        <!-- Linkedin-->
+        <a class="p-2 fa-lg fb-ic" href="https://www.linkedin.com/in/utkarsh-sharma-51a924195/">
+          <i class="fab fa-linkedin"> </i>
+        </a>
+       
+      </div>
+    </div>
+    <!-- Grid column -->
+
+
+
+   <!-- Grid column -->
+   <div class="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
+    <div class="avatar mb-md-0 mb-4 mx-4  p-5">
+      <img src="{{ url_for('static', filename = 'team/t11.jpg') }}" class="rounded-circle z-depth-1" alt="Sample avatar">
+    </div>
+    <div class="mx-4 pr-1 pt-5 ">
+      <h4 class="font-weight-bold mb-3">Aniket Pathak</h4>
+      <h6 class="font-weight-bold grey-text mb-3">Competitive Programmer</h6>
+      <p class="grey-text">C, C++, Python</p>
+      <!-- Facebook-->
+      <a class="p-2 fa-lg fb-ic" href="https://www.linkedin.com/in/aniket-pathak-a8421a1ab/">
+        <i class="fab fa-linkedin"> </i>
+      </a>
+    </div>
+  </div>
+  <!-- Grid column -->
+</div>
+
+<!-- Grid row-->
+<div class="row text-center text-md-left">
+
+    <!-- Grid column -->
+    <div class="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
+      <div class="avatar mb-md-0 mb-4 mx-4 p-5">
+        <img src="{{ url_for('static', filename = 'team/t14.jpg') }}" class="rounded-circle z-depth-1" alt="Sample avatar">
+      </div>
+      <div class="mx-4 pr-1 pt-5">
+        <h4 class="font-weight-bold mb-3">Divyansh Shrama</h4>
+        <h6 class="font-weight-bold grey-text mb-3">Writer</h6>
+        <p class="grey-text">Machine learning  enthusiast, Author of "The lift", Udemy Instructor</p>
+       
+      </div>
+    </div>
+    <!-- Grid column -->
+
+
+
+   <!-- Grid column -->
+   <div class="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
+    <div class="avatar mb-md-0 mb-4 mx-4  p-5">
+      <img src="{{ url_for('static', filename = 'team/t12.jpg') }}" class="rounded-circle z-depth-1" alt="Sample avatar">
+    </div>
+    <div class="mx-4 pr-1 pt-5 ">
+      <h4 class="font-weight-bold mb-3">Akshat Gupta</h4>
+      <h6 class="font-weight-bold grey-text mb-3">Aspiring Ethical Hacker</h6>
+      <p class="grey-text">Ethical hacking, Cyber Security, Back-End</p>
+      <!-- Facebook-->
+      <a class="p-2 fa-lg fb-ic" href="https://www.linkedin.com/in/akshat-gupta-2173b5193/">
+        <i class="fab fa-linkedin"> </i>
+      </a>
+      
+    </div>
+  </div>
+  <!-- Grid column -->
+</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue console bg-dark fixed-bottom">
+
+	<!-- Copyright -->
+	<div class="footer-copyright text-center py-3">© 2020 Copyright:
+	  <a href=#> COSEC</a>
+	</div>
+	<!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+{% endblock %}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee Inline">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous">
+
+
+
+
+
+    <style>
+        body {
+            background-color: darkslategray;
+            font-family: "Oswald";
+            font-size: 22px;
+            font-style: normal;
+            color: honeydew;
+        }
+
+        h5 {
+            font: large;
+            font-family: 'Bungee Inline';
+            font-weight: bold;
+            text-align-last: center;
+
+        }
+
+        h3 {
+            font: large;
+            font-family: 'Bungee Inline';
+            font-weight: bold;
+            text-align-last: center;
+        }
+
+        .damn {
+            margin: auto;
+            width: 1000px;
+            height: 250px;
+
+
+        }
+
+        p {
+            color: darkgrey;
+        }
+
+        p.one {
+            color: darkgrey;
+            text-align-last: center;
+        }
+
+        p.memo {
+            color: darkgrey;
+            text-align-last: center;
+            font-family: 'Sofia';
+            font-size: xx-large;
+            font-style: italic;
+            text-shadow: 2px 2px 5px black;
+            letter-spacing:5px;
+            
+        }
+        div.box{
+                width: 940px;
+                height: 60px;
+                box-shadow: 10px 10px 5px 5px black;
+            
+        }
+        .sidenav {
+  height: 480px;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 69px;
+  bottom: -100px;
+  left: 0;
+  background-color:#292b2c ;
+  overflow-x: hidden;
+  padding-top: 20px;
+  
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.teamh{
+    font-family:'Righteous';
+
+}
+
+
+
+    </style>
+    {% block head %}{% endblock %}
+</head>
+
+<body>
+    {% block body %} {%endblock%}
+</body>
+
+</html>

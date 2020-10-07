@@ -1,0 +1,147 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+
+<div class="container-fluid" style="margin-top: 110px;">
+    <h3>
+        <p style="letter-spacing: 5px; text-shadow:  2px 2px 5px black;"><strong> GOOGLE ACTION WORKSHOP </strong>
+        </p>
+    </h3>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark  fixed-top ">
+    <!-- Brand/logo -->
+    <a class="navbar-brand nav justify-content-start " href="/home">
+        <img src="{{ url_for('static', filename = 'logo1.png') }}" alt="logo" style="width:40px;">
+    </a>
+
+    <!-- Links -->
+    <ul class="navbar-nav nav justify-content-end ">
+        <li class="nav-item ">
+            <a class="nav-link" href="/home/team">
+                <h5>Team</h5>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/home/Memo">
+                <h5>Memoir</h5>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/home/hof">
+                <h5>Hall of fame</h5>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <h5>Events</h5>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<div class="sidenav">
+    
+    <a href="/home/Memo/ind2018">Induction Session 2018</a>
+    <a href="#">Workshop On Google-Action</a>
+    <a href="/home/Memo/cyber">Cyber-Security workshop</a>
+
+</div>
+
+
+<div class="container my-4" style="margin-left: 215px;">
+
+    <!--Grid row-->
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
+
+            <img src="{{url_for('static', filename='i/2i.jpg')}}" class="img-fluid mb-4" alt="">
+
+
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+            <img src="{{url_for('static', filename='i/4i.jpg')}}" class="img-fluid mb-4" alt="" data-wow-delay="0.1s">
+
+            <img src="{{url_for('static', filename='i/5i.jpg')}}" class="img-fluid mb-4" alt="" data-wow-delay="0.4s">
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+            <img src="{{url_for('static', filename='i/6i.jpg')}}" class="img-fluid mb-4" alt="" data-wow-delay="0.2s">
+
+            <img src="{{url_for('static', filename='i/8i.jpg')}}" class="img-fluid mb-4" alt="" data-wow-delay="0.5s">
+
+        </div>
+        <!--Grid column-->
+
+
+    </div>
+    <!--Grid row-->
+    <div class="row">
+
+        <div class="col-lg-4 col-md-12 mb-4">
+
+            <img src="{{url_for('static', filename='i/akshay.jpg')}}" class="img-fluid mb-4" alt="" data-wow-delay="0.2s">
+            <img src="{{url_for('static', filename='i/14i.jpg')}}" class="img-fluid mb-4" alt="" data-wow-delay="0.2s">
+
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <img src="{{url_for('static', filename='i/12i.jpg')}}" class="img-fluid mb-4" alt="" data-wow-delay="0.2s">
+            <img src="{{url_for('static', filename='i/10i.jpg')}}" class="img-fluid mb-4" alt="" data-wow-delay="0.2s">
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <img src="{{url_for('static', filename='i/13i.jpg')}}" class="img-fluid mb-4" alt="" data-wow-delay="0.2s">
+
+        </div>
+    </div>
+    <div class="row">
+        
+        <div class="col-lg-4 col-md-12 mb-4">
+            <img src="{{url_for('static', filename='i/1i.jpg')}}" class="img-fluid mb-4" alt="" data-wow-delay="0.2s">
+        </div>
+        
+        <div class="col-lg-4 col-md-6 mb-4">
+            <img src="{{url_for('static', filename='i/15i.jpg')}}" class="img-fluid mb-4" alt="" data-wow-delay="0.2s">
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <img src="{{url_for('static', filename='i/3i.jpg')}}" class="img-fluid mb-4" alt="" data-wow-delay="0.2s">
+        </div>
+    </div>
+</div>
+<script>
+    $(".img-fluid").addClass("wow fadeIn z-depth-1-half");
+
+    new WOW().init();
+</script>
+
+
+<!-- Footer -->
+<footer class="page-footer font-small blue console bg-dark fixed-bottom">
+
+	<!-- Copyright -->
+	<div class="footer-copyright text-center py-3">© 2020 Copyright:
+	  <a href=#> COSEC</a>
+	</div>
+	<!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+{% endblock %}
